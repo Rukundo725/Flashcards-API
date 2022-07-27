@@ -1,0 +1,7 @@
+-- CreateTable
+CREATE TABLE "Question" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "topic" TEXT NOT NULL,
+    "question" TEXT NOT NULL
+);
