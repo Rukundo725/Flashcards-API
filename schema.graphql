@@ -3,5 +3,11 @@
 
 
 type Query {
-  ok: Boolean!
+  feed: [Question!]!
+}
+
+type Question {
+  id: Int!
+  question: String!
+  topic: String!
 }
